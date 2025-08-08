@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.PixelClicker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pixel_primary</item>
+        <item name="colorPrimaryVariant">@color/pixel_accent</item>
+        <item name="colorSecondary">@color/pixel_accent</item>
+        <item name="android:colorBackground">@color/pixel_bg</item>
+        <item name="android:textColor">@color/pixel_text</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="materialButtonStyle">@style/Widget.Pixel.Button</item>
+    </style>
+
+    <style name="Widget.Pixel.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="backgroundTint">@color/pixel_surface</item>
+        <item name="android:textColor">@color/pixel_primary</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+</resources>

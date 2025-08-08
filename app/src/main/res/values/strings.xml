@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pixel Clicker</string>
+    <string name="action_mine">Mine</string>
+    <string name="action_fish">Fish</string>
+    <string name="action_fight">Fight</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="gold">Gold</string>
+    <string name="ore">Ore</string>
+    <string name="fish">Fish</string>
+    <string name="xp">XP</string>
+    <string name="stamina">Stamina</string>
+</resources>
